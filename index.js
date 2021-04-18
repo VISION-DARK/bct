@@ -1,4 +1,4 @@
-const {
+ const {
     WAConnection,
     MessageType,
     Presence,
@@ -343,7 +343,7 @@ async function starts() {
 					loli.getSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERROR* ❌')
 						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Cuih dasar pedo.'})
 					})
 					break
 				case 'nsfwloli':
@@ -351,7 +351,7 @@ async function starts() {
 					loli.getNSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERROR* ❌')
 						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan comli om.ingat puasa.'})
 					})
 					break
 				case 'hilih':
